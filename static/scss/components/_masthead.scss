@@ -1,0 +1,45 @@
+header.masthead {
+  position: relative;
+  overflow: hidden;
+
+  .masthead-container {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.25);
+    position: relative;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    .masthead-content {
+      .masthead-heading {
+        font-size: 4rem;
+      }
+      .masthead-subheading {
+        font-size: 2rem;
+      }
+    }
+  }
+  .masthead-cover {
+    filter: blur(5px);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead.masthead-container {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+    .masthead-content {
+      .masthead-heading {
+        font-size: 6rem;
+      }
+      .masthead-subheading {
+        font-size: 4rem;
+      }
+    }
+  }
+}

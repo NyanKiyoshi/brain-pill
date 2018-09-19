@@ -1,0 +1,17 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~startbootstrap-one-page-wonder/scss/variables";
+@import "~startbootstrap-one-page-wonder/scss/mixins";
+@import "~startbootstrap-one-page-wonder/scss/global";
+@import "~startbootstrap-one-page-wonder/scss/bootstrap-overrides";
+
+@import "~@fortawesome/fontawesome-free/scss/variables";
+@import "~@fortawesome/fontawesome-free/scss/mixins";
+@import "~@fortawesome/fontawesome-free/scss/core";
+@import "~@fortawesome/fontawesome-free/scss/larger";
+@import "~@fortawesome/fontawesome-free/scss/fixed-width";
+@import "~@fortawesome/fontawesome-free/scss/icons";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+@import "components/masthead";
+@import "layouts/landing";
