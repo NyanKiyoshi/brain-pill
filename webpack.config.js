@@ -14,31 +14,17 @@ var output;
 const baseStaticPath = process.env.STATIC_URL || '/static/';
 const publicPath = url.resolve(baseStaticPath, 'assets/');
 
-if (process.env.NODE_ENV === 'production') {
-  output = {
-    path: resolve('static/assets/'),
-    filename: '[name].[chunkhash].js',
-    chunkFilename: '[name].[chunkhash].js',
-    publicPath: publicPath
-  };
-  fileLoaderPath = 'file-loader?name=[name].[hash].[ext]';
-  extractCssPlugin = new MiniCssExtractPlugin({
-    filename: '[name].[chunkhash].css',
-    chunkFilename: '[id].[chunkhash].css'
-  });
-} else {
-  output = {
-    path: resolve('static/assets/'),
-    filename: '[name].js',
-    chunkFilename: '[name].js',
-    publicPath: publicPath
-  };
-  fileLoaderPath = 'file-loader?name=[name].[ext]';
-  extractCssPlugin = new MiniCssExtractPlugin({
-    filename: '[name].css',
-    chunkFilename: '[name].css'
-  });
-}
+output = {
+  path: resolve('static/assets/'),
+  filename: '[name].js',
+  chunkFilename: '[name].js',
+  publicPath: publicPath
+};
+fileLoaderPath = 'file-loader?name=[name].[ext]';
+extractCssPlugin = new MiniCssExtractPlugin({
+  filename: '[name].css',
+  chunkFilename: '[name].css'
+});
 
 var bundleTrackerPlugin = new BundleTracker({
   filename: 'webpack-bundle.json'
