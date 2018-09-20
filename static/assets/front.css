@@ -344,7 +344,7 @@ h6, .h6 {
   line-height: 1.2; }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 300;
   line-height: 1.2; }
 
@@ -10051,6 +10051,36 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
 
+/*!
+ * Font Awesome Free 5.3.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url(/brain-pill/static/assets/fa-brands-400.eot);
+  src: url(/brain-pill/static/assets/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(/brain-pill/static/assets/fa-brands-400.woff2) format("woff2"), url(/brain-pill/static/assets/fa-brands-400.woff) format("woff"), url(/brain-pill/static/assets/fa-brands-400.ttf) format("truetype"), url(/brain-pill/static/assets/fa-brands-400.svg#fontawesome) format("svg"); }
+
+.fab {
+  font-family: 'Font Awesome 5 Brands'; }
+
+.circle-img {
+  overflow: hidden;
+  border-radius: 100%;
+  margin: auto;
+  max-height: 450px;
+  max-width: 600px; }
+  .circle-img img {
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  @media (max-width: 1199.98px) {
+    .circle-img {
+      height: 50vw;
+      width: 50vw; } }
+
 header.masthead {
   position: relative;
   overflow: hidden; }
@@ -10068,7 +10098,6 @@ header.masthead {
     -webkit-filter: blur(5px);
             filter: blur(5px);
     min-width: 100%;
-    min-height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: top;
@@ -10087,7 +10116,7 @@ header.masthead {
       font-size: 4rem; } }
 
 .download-links {
-  padding-top: 5rem; }
+  padding-top: 3rem; }
   .download-links .btn {
     color: white;
     background-color: rgba(108, 117, 125, 0.5);

@@ -1,0 +1,16 @@
+.circle-img {
+  overflow: hidden;
+  border-radius: 100%;
+  margin: auto;
+  max-height: 450px;
+  max-width: 600px;
+  img {
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  @include media-breakpoint-down(lg) {
+    height: 50vw;
+    width: 50vw;
+  }
+}
