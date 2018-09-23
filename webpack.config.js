@@ -40,7 +40,8 @@ var providePlugin = new webpack.ProvidePlugin({
 
 var config = {
   entry: {
-    front: './static/js/front.js'
+    front: './static/js/front.js',
+    live: './static/js/live.js',
   },
   output: output,
   module: {

@@ -1,0 +1,9 @@
+@import "variables";
+$list-group-action-hover-color: $primary;
+@import "./front_base";
+@import "components/terminal_mockup";
+
+
+html, body, #content, #content > * {
+  height: 100%;
+}
