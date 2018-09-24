@@ -79,12 +79,13 @@ var config = {
         ]
       },
       {
-        test: /\.(eot|otf|png|svg|jpe?g|ttf|woff|woff2)(\?v=[0-9.]+)?$/,
+        test: /\.(eot|otf|png|svg|jpe?g|ttf|woff|woff2|wav)(\?v=[0-9.]+)?$/,
         loader: fileLoaderPath,
         include: [
           resolve('node_modules'),
           resolve('static/fonts'),
           resolve('static/images'),
+          resolve('static/sounds'),
           resolve('static/dashboard/images'),
           resolve('static/dashboard/fonts')
         ]
