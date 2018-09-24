@@ -10,6 +10,17 @@ html, body, #content, #content > * {
   height: 100%;
 }
 
+.list-group-item-action {
+  transition: outline-color .5s;
+  outline: 2px solid transparent;
+  &:focus, &:active {
+    color: $list-group-action-color;
+  }
+  &:hover {
+    outline-color: $primary;
+  }
+}
+
 .modal-dialog {
   max-width: 680px;
   padding: $spacer;
