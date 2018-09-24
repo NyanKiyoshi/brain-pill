@@ -1,1 +1,6 @@
 Pipfile.lock linguist-generated
+*.css linguist-generated
+*.svg linguist-generated
+front.js linguist-generated
+live.js linguist-generated
+webpack-bundle.json linguist-generated

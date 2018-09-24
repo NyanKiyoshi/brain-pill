@@ -3,7 +3,9 @@ Credits: https://codepen.io/johnny13/pen/prqmBr
 */
 @font-face {
   font-family: "Hack";
-  src: url("https://cdn.jsdelivr.net/font-hack/2.020/fonts/woff2/hack-regular-webfont.woff2?v=2.020") format("woff2"), url("//cdn.jsdelivr.net/font-hack/2.020/fonts/woff/hack-regular-webfont.woff?v=2.020") format("woff");
+  src:
+      url("https://cdn.jsdelivr.net/font-hack/2.020/fonts/woff2/hack-regular-webfont.woff2?v=2.020") format("woff2"),
+      url("//cdn.jsdelivr.net/font-hack/2.020/fonts/woff/hack-regular-webfont.woff?v=2.020") format("woff");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
